@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Questrial&display=swap");
+
+
+/* -----------------------------Eind Mobile onderdeel------------------------------- */
+
+header {
+  width: 100%;
+  height: 350px;
+  margin: 0;
+  background-image: url(IMG/utrechtbackground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header h1 {
+  padding-top: 100px;
+  text-align: center;
+  font-size: 26px;
+  font-family: "Montserrrat", Arial, Helvetica, sans-serif;
+  color: rgb(75, 81, 81);
+}
+
+
+
+#main {
+  height: 500px;
+  margin: 20% 0 5% 0;
+  display: flex;
+  clear: fixed;
+  font-size: 18px;
+  font-family: "Montserrrat", Arial, Helvetica, sans-serif;
+}
+
+ul,
+li {
+  font-size: 18px;
+  padding: 10px;
+}
+
+[class*="col-"] {
+  width: 100%;
+  display: flex;
+}
+
+.col-2 {
+
+  width: 20%;
+   margin-top: 50px;
+  background-color: rgba(139, 189, 232, 0.393);
+  display: inline-block;
+  padding: 4% 0 2% 0;
+  height: 300px;
+}
+
+.col-9 {
+  width: 79%;
+  padding: 1.55% 0 8.555% 0;
+  margin-bottom: 250px;
+  height: 250px;
+  background-color: rgba(185, 185, 201, 0.961);
+  display: inline-block;
+}
+
+.section1 p{
+    margin: 60px;
+}
+
+.section2 p{
+    margin: 60px;
+}
+
+
+
+#footer {
+  margin-top: 25%;
+  height: 80px;
+  width: 100%;
+  background-color: pink;
+  font-size: 10px;
+  text-align: center;
+}
+
+#footer h3 {
+    padding-top: 3%;
+  }
+
+
+  /* -------------------------------------------Mobile/ Media onderdeel-------------------------------------------------------- */
+
+body {
+    background-color: rgba(223, 159, 157, 0.397);
+  }
+  @media only screen and (max-width: 600px) {
+    header {
+      width: 100%;
+      height: 150px;
+      background-image: url(IMG/utrechtbackground.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
+    header h1 {
+      padding-top: 60px;
+      text-align: center;
+      font-size: 26px;
+      font-family: "Montserrrat", Arial, Helvetica, sans-serif;
+      color: rgb(75, 81, 81);
+    }
+  
+    img {
+      width: 200px;
+      border: 2 solid rgb(102, 12, 27);
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    #main {
+      height: 500px;
+      margin: 40% 0 0 0;
+      display: flex;
+      clear: fixed;
+      font-size: 15px;
+      font-family: "Montserrrat", Arial, Helvetica, sans-serif;
+    }
+  
+    ul,
+    li {
+      font-size: 12px;
+      padding-bottom: 5px;
+
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    [class*="col-"] {
+      width: 100%;
+      display: flex;
+    }
+  
+    .col-2 {
+      width: 20%;
+      background-color: rgba(139, 189, 232, 0.393);
+      display: inline-block;
+      margin-top: 50px;
+      padding-top: 50px;
+      height: 350px;
+
+    
+    }
+
+    #lijst{
+       height: 350px;
+       margin-top: 50px;
+    }
+
+    .col-9 {
+      width: 79%;
+      background-color: rgba(185, 185, 201, 0.961);
+      display: inline-block;
+      height: 350px;
+     
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    #footer {
+      margin-top: 15%;
+      height: 80px;
+      width: 100%;
+      background-color: pink;
+      font-size: 10px;
+      text-align: center;
+    }
+  
+    #footer h3 {
+      padding-top: 7%;
+    }
+  }
+  
